@@ -70,6 +70,10 @@ Setup steps:
    ```
 6. (ssh, `ec2-user`) Setup symlinks for Salt:
    ```
-   sudo ln -s /srv/devops/salt/ /srv/salt/
-   sudo ln -s /srv/devops/pillar /srv/pillar/
+   sudo ln -s /srv/devops/salt/ /srv/salt
+   sudo ln -s /srv/devops/pillar /srv/pillar
+   ```
+7. (ssh, `ec2-user`) Setup rest of server with Salt:
+   ```
+   sudo salt-call --local state.apply
    ```
