@@ -60,7 +60,16 @@ Setup steps:
    sudo groupadd devops
    sudo mkdir /srv/devops
    sudo chgrp devops /srv/devops
-   sudo chmod 770
+   sudo chmod 770 /srv/devops
    sudo usermod -aG devops ec2-user
+   exit
+   ```
+   Login into the SSH user again and run:
+   ```
    git clone git@github.com:HackHolyoke2019/devops.git /srv/devops
+   ```
+6. (ssh, `ec2-user`) Setup symlinks for Salt:
+   ```
+   sudo ln -s /srv/devops/salt/ /srv/salt/
+   sudo ln -s /srv/devops/pillar /srv/pillar/
    ```
