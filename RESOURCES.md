@@ -22,7 +22,10 @@ policescanner.space
 
 Records:
 
-- `@` - `A` - Points towards [Server](#server)
+| Name  | Type | Target                           |
+| ----- | ---- | -------------------------------- |
+| `@`   | `A`  | Points towards [Server](#server) |
+| `www` | `A`  | ^                                |
 
 # Server
 AWS EC2 - Instance named `policescanner.zone`.
