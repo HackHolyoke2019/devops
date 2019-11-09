@@ -1,0 +1,2 @@
+motd:
+  file: /etc/motd

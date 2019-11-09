@@ -1,0 +1,28 @@
+users:
+  noah:
+    name: noah
+    id: 1010
+    ssh_public_key: |
+      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH7worAdtOa+cq2AuyFBdvbX+8Zy4zcHRChFb4EerKGX noah@katla
+    groups:
+      - wheel
+  matt:
+    name: matt
+    id: 1020
+    ssh_public_key: |
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/4fvQ3t7a3a/lFvLf0iODa9Z5MdhYD3YRvVa5nEDzHCwhdMle36xqDEsve0zOdYyvQ7MErr6ed8YBVMPp7PB0jdnEQq66frc57rcZUJW3226Ec/TVAbPbdBIz1Off/vTYMkEeU/rHCJTnAkG7vdcXX2SLJBQEQ8+ZAAu6FZbmRHNcQgehMd9HbZkd6vF6bYIlYnWi5W54z2i2bOzG4tFejNIkzpuPMy/CcSx+1mG+c3TtMvPZjexAWgyLcKzTmtJPVRixaA6E8RM7eqCftL/QqCcWf+ZG3loD0ViLj1kf9twf15X+j+Y/8dfkxbYn87IfGHoTMlY4R+WzQHjbW3DH Matt@Matt-PC
+  tyler:
+    name: tyler
+    id: 1030
+    ssh_public_key: |
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCTKQEtHcNztPMBi8q8kGUFMloy0eY6CemnXhCuG96hLYs6vdjACu1QRhieW+mHC4We82/PZXd+jwchlZFTyrcBJ3lpim1ro7YG2f/AMpsWsyaaMbxdUqufHpcSMxNrygHoOmIsISfUg+84SmTUMn3ADAdSnfJi6pTnZG729R7z2be/1axPntBYdhfv7wihtKdcwH6fuDjrDHFGOgpH/9zE+7bVJpySxJO9fEz2l54VRPadM9gopj2dCitfL//c4DZiGUi94xMa/QH2JTRmTzcFwkmA9QlvnLKP4+m1N0uPd4cDfbHLQPW2nPtjRty2XwLGo1hnwwXT6EoNMrbN5DCNie0fgj4ZJv1FmVe6QKAn+Fek6BwRknCqrQIErPDBsvDGJDvrBfTjdoIorMmh7HVBJIHKueTo2leblz/U4gVk6w/R/n0HOKILU0yVLtfcEK1sQ9vsK/rvlAg9fhHStO5h3+nr0Nlyt2hem4koxOTvFAHVCU615A4pQ92cztpAezw7uBIgX8GI4JyTln32OrdmShS/y535cu95rKavaTNV3KuOzB1Cc6l3HHEksE17lSFx3wouzyU+tPR9zjGN45ZWjxXquZnwctF3gX7I9fbjL9CaxzKLkPbB3yKDSoGdpO7r1RT+CEe+zRrWQOcpW+3YvUJVKBUJoY5tq2GaLtBZzw== t.charlantini@gmail.com
+  thinh:
+    name: thinh
+    id: 1040
+    ssh_public_key: |
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCiQ1+DpxAxJ2m0VpQt7DFdhy4K4rRZ2rMmPUyyTZBzDXMDB052ZzYWC1Cl6aYnAczSdez+vQ4BYo0tcY0PMRf9l2q+p59RLQJ67+3ZszERegk0cvVz2wxnXUoX9YMSTTNgnNG36h/pSS/rSiVbPFl8jWncC8tNahz7BaPRmPVqGRDhnv7R8sBcPN5/xLaNwvbsZuhWiXFlGY9e/FbvjZ/GqTnY1WFeMbuJMEqQ0CjpwH9/eoft0365R0zD7Ko7RD7F4d3SpCWVhW6b9h3YRaZCP4xzzD5vpbjbZImCfMKfmvXyJahYzTOH1wGmA2ZlT7qOB2SU5YK/XsxVkhupxEvWfr9nfgwX9H54ATL9CGnVOXYEEP60YjgCsQa9aSX4iEf9tkLpe5INfgBssO1hTuinua1o+XYtr1z44h96C9dPsLnA7bMyk1YsC20BrEu/WLYU3U1loOdca2Qn5f0cPS11+ESu3YNaKmu3aySbx6LxVvsP3PkiFg6B/lkPUK8B8KiDUd5g2UDcQKpNzP4f/NtiXH+Aq2hj0GpLS2w7LmfUY1GrTPExJJZDz4eLUbYwT6JZmqdPqT3AQKFf8IBqJQbfCl907vQO/TVnP53WBGOzYVk3THHvboarBaGCJygfpNWsgkYna2V+rdTYjbLm7DIchAMFn+Q0oN3AHjNLgxxg1Q== thinhpham@Thinhs-MacBook-Air.local
+  dylan:
+    name: dylan
+    id: 1050
+    ssh_public_key: |
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDVSnoqHLmU/9ghl1+mE5pYIvYKu+VQT58s5/lpBkAbafFT1XuqAsaqZXBYTafcIsCQzdY/S/zDpHGhmOdWq0LEfIZsygCD6QAvdNHfEUhuCdzBUSUX4xNGBlVdeiwS5ioJm/vL0n5p4gAR2MPvtGl95jcTbMr5Rd35jw0Lnx0Ijfj6DuXodMWVwOZFpBm5ipov/3ngxRASIdyDPJv1QUqR4bzr8Cax5G4+jUqGU9CcukvUFIbhmex01aycPnnCbMcWzTxJnkxmlly8h/00okIavYkjTg2GjflfEcY6FNewbU0YwtiAHgayuJ3pYaVb6uhcYd7qPEPcjpSCm9FLlb4b3CAElaYvU0T1rnC/rmxM5JBjTjZK6YxSvruEcpEpsXfFo5nZIjH+sn+m4GYHV16u2BvyISV81UDTn/QrqlFNpPFzUMzUJvIm/2oP0eVXCqO/Vre8+ag/9LXMfVg2L9csTGPtaC0qruY1rFFmIAyLP0/4XLYNkrK5+ty5o5wbpbaxjuiqjFW4BkhPDcSZ1rxtSHLrQFf04mCrOsYGk/XrTlejiwM0jC8P9TLdFty/h8lVsLBE8EyMBZYVLxT2iskzimWcEbPZmcoZd9AlMGIdKMsFLcb2xxHiRdX6ZJitUxxOGXoNOeNmJAfIHzPkc/0q58xljleCnjTRF6Wmv5aWaQ==

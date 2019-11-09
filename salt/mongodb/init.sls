@@ -8,3 +8,9 @@
   pkg.installed:
     - require:
       - file: {{ pillar.mongodb.yum_repo_file }}
+
+{{ pillar.mongodb.svc }}:
+  service.running:
+    - enable: true
+    - require:
+      - pkg: {{ pillar.mongodb.pkg }}
