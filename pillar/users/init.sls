@@ -2,13 +2,15 @@ users:
   noah:
     name: noah
     id: 1010
-    ssh_public_key: |
-      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH7worAdtOa+cq2AuyFBdvbX+8Zy4zcHRChFb4EerKGX noah@katla
     groups:
       - wheel
+    ssh_public_key: |
+      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH7worAdtOa+cq2AuyFBdvbX+8Zy4zcHRChFb4EerKGX noah@katla
   matt:
     name: matt
     id: 1020
+    groups:
+      - wheel
     ssh_public_key: |
       ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/4fvQ3t7a3a/lFvLf0iODa9Z5MdhYD3YRvVa5nEDzHCwhdMle36xqDEsve0zOdYyvQ7MErr6ed8YBVMPp7PB0jdnEQq66frc57rcZUJW3226Ec/TVAbPbdBIz1Off/vTYMkEeU/rHCJTnAkG7vdcXX2SLJBQEQ8+ZAAu6FZbmRHNcQgehMd9HbZkd6vF6bYIlYnWi5W54z2i2bOzG4tFejNIkzpuPMy/CcSx+1mG+c3TtMvPZjexAWgyLcKzTmtJPVRixaA6E8RM7eqCftL/QqCcWf+ZG3loD0ViLj1kf9twf15X+j+Y/8dfkxbYn87IfGHoTMlY4R+WzQHjbW3DH Matt@Matt-PC
   tyler:
